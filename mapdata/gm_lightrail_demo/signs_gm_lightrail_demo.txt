@@ -1,0 +1,47 @@
+[
+	{
+		"SignalType": "models/lilly/uf/signals/Underground_Small_Pole.mdl",
+		"ActiveRoute": 1.0,
+		"Routes": [],
+		"Angles": "{0 179.287 0}",
+		"Class": "gmod_track_uf_signal",
+		"Name1": "Saa",
+		"Pos": "[-590.078 13107.0186 1063.0033]",
+		"Name2": "A1"
+	},
+	{
+		"SignalType": "models/lilly/uf/signals/signal-bostrab-overground.mdl",
+		"ActiveRoute": 1.0,
+		"Routes": [],
+		"Angles": "{0 359.7155 0}",
+		"Class": "gmod_track_uf_signal",
+		"Name1": "Dor",
+		"Pos": "[-266.4263 13265.8174 1062.9182]",
+		"Name2": "A1"
+	},
+	{
+		"Pos": "[-10828 8348 1067.8961]",
+		"Angles": "{0 180 0}",
+		"Class": "gmod_track_uf_switch"
+	},
+	{
+		"Pos": "[-10828 8348 1067.8961]",
+		"Angles": "{0 180 0}",
+		"Class": "gmod_track_uf_switch"
+	},
+	{
+		"Pos": "[-10828 8348 1067.8961]",
+		"Angles": "{0 180 0}",
+		"Class": "gmod_track_uf_switch"
+	},
+	{
+		"YOffset": 0.0,
+		"Angles": "{0 180 0}",
+		"Rotation": 0.0,
+		"Class": "gmod_track_mplr_sign",
+		"ZOffset": 56.0,
+		"Left": false,
+		"SignType": "models/lilly/uf/signage/start_of_block_operation.mdl",
+		"Pos": "[-596.0023 13106.8359 1062.9999]"
+	}
+]
