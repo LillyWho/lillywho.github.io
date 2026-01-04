@@ -1,0 +1,82 @@
+[
+	{
+		"SignalType": "models/lilly/uf/signals/Underground_Small_Pole.mdl",
+		"ActiveRoute": 1,
+		"Routes": [],
+		"VerticalOffset": 0,
+		"Angles": "{0 270.1278 0}",
+		"HorizontalOffset": 0,
+		"Class": "gmod_track_uf_signal",
+		"Name1": "Lrz",
+		"Pos": "[11392.957 -11646.791 74.8614]",
+		"Name2": "E1"
+	},
+	{
+		"SignalType": "models/lilly/uf/signals/Underground_Small_Pole.mdl",
+		"ActiveRoute": 1,
+		"Routes": [],
+		"VerticalOffset": 0,
+		"Angles": "{0 89.9347 0}",
+		"HorizontalOffset": 0,
+		"Class": "gmod_track_uf_signal",
+		"Name1": "Lrz",
+		"Pos": "[11235.1826 -9210.8125 75.0838]",
+		"Name2": "A1"
+	},
+	{
+		"SignalType": "models/lilly/uf/signals/Underground_Small_Pole.mdl",
+		"ActiveRoute": 1,
+		"Routes": [],
+		"VerticalOffset": 0,
+		"Angles": "{0 89.7103 0}",
+		"HorizontalOffset": 0,
+		"Class": "gmod_track_uf_signal",
+		"Name1": "Lrz",
+		"Pos": "[11547.2217 -9196.0137 75.0845]",
+		"Name2": "R2"
+	},
+	{
+		"SignalType": "models/lilly/uf/signals/Underground_Small_Pole.mdl",
+		"ActiveRoute": 1,
+		"Routes": [],
+		"VerticalOffset": 0,
+		"Angles": "{0 269.8162 0}",
+		"HorizontalOffset": 0,
+		"Class": "gmod_track_uf_signal",
+		"Name1": "Lrz",
+		"Pos": "[11537.9102 -6184.4033 74.9349]",
+		"Name2": "A2"
+	},
+	{
+		"SignalType": "models/lilly/uf/signals/Underground_Small_Pole.mdl",
+		"ActiveRoute": 1,
+		"Routes": [
+			"Lrz/A2",
+			"Lrz/R1"
+		],
+		"VerticalOffset": 0,
+		"Angles": "{0 269.0098 0}",
+		"HorizontalOffset": 0,
+		"Class": "gmod_track_uf_signal",
+		"Name1": "Lrz",
+		"Pos": "[11237.5605 -6119.9595 75.0719]",
+		"Name2": "R1"
+	},
+	{
+		"Pos": "[11392 -11448 75.47]",
+		"ID": 1,
+		"TrackSwitches": [
+			"blade_w001_l",
+			"blade_w001_r"],
+		"Angles": "{0 270 0}",
+		"Class": "gmod_track_uf_switch",
+		"AllowSwitchingIron": true
+	},
+	{
+		"BalliseName": "ballise_Lrz/E1",
+		"Angles": "{0 270 0}",
+		"Pos": "[11392 -11800 76]",
+		"PairedSignal": "Lrz/E1",
+		"Class": "gmod_track_mplr_ballise"
+	}
+]
